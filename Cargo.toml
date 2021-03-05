@@ -1,0 +1,10 @@
+[package]
+name = "uefi-chainloader"
+version = "0.1.0"
+authors = ["eu90h <euler90h@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+r-efi = "3.2.0"
+atomic_refcell = "0.1.6"
+x86_64 = "0.13.2"
